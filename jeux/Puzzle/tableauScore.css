@@ -1,0 +1,276 @@
+body{
+	background-image: url('media/maths.jpg');
+	background-size: cover;
+	/*color: white;*/
+	font-size: 1.7em;
+	font-family: 'policeEval', Comic Sans MS, Arial, sans-serif;
+	border-radius: 25% 10%;
+}
+
+@font-face{
+	font-family: policeEval;
+	src: url(alex-brush/AlexBrush-Regular.ttf);
+}
+
+.titre{
+	display: flex;
+	position: absolute;
+	left: 30%;
+	text-align: center;
+	justify-content: center;
+	border: solid black;
+	background-color: #f7f7f7;
+	width: 25em;
+	height: 4em;
+	line-height: 0.65;
+}
+.msg1, .msg2, .msg3, .msg4{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.niveau1{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	width: 7em;
+	top: 21%;
+	left: 18%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.niveau1 p, .niveau2 p, .niveau3 p, .niveau4 p{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.n1{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	top: 21%;
+	left: 33%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+
+.niveau2{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	width: 7em;
+	top: 31%;
+	left: 18%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.n2{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	top: 31%;
+	left: 33%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.niveau3{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	width: 7em;
+	top: 41%;
+	left: 18%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.n3{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	top: 41%;
+	left: 33%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.niveau4{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	width: 7em;
+	top: 51%;
+	left: 18%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.n4{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	top: 51%;
+	left: 33%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+
+.tentatives1 p, .tentatives2 p, .tentatives3 p, .tentatives4 p{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.tentatives1{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	width: 7em;
+	top: 21%;
+	left: 48%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.p1{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	top: 21%;
+	left: 63%;
+	justify-content: center;
+	background-color: #f7f7f7;
+
+}
+.tentatives2{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	width: 7em;
+	top: 31%;
+	left: 48%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.p2{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	top: 31%;
+	left: 63%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.tentatives3{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	width: 7em;
+	top: 41%;
+	left: 48%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.p3{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	top: 41%;
+	left: 63%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.tentatives4{
+	display: flex;
+	position: absolute;
+	border: solid black;
+	border-radius: 2px;
+	width: 7em;
+	top: 51%;
+	left: 48%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.p4{
+	display: flex;
+	position: absolute;
+	width: 9em;
+	border: solid black;
+	border-radius: 2px;
+	top: 51%;
+	left: 63%;
+	justify-content: center;
+	background-color: #f7f7f7;
+	height: 1.45em;
+}
+.evaluation{
+	display: flex;
+	position: absolute;
+	border: solid green;
+	border-radius: 2px;
+	width: 7em;
+	top: 61%;
+	left: 18%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+
+.evaluation p{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.s1{
+	display: flex;
+	position: absolute;
+	border: solid green;
+	border-radius: 2px;
+	width: 4em;
+	top: 61%;
+	left: 33%;
+	justify-content: center;
+	background-color: #f7f7f7;
+
+}
+.scoreTotal{
+	display: flex;
+	position: absolute;
+	border: solid green;
+	border-radius: 2px;
+	width: 7em;
+	top: 71%;
+	left: 18%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.scoreTotal p{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.msgs1, .msgs2, .msgp1, .msgp2, .msgp3, .msgp4{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.s2{
+	display: flex;
+	position: absolute;
+	border: solid green;
+	border-radius: 2px;
+	width: 7em;
+	top: 71%;
+	left: 33%;
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+.memetype{
+	border: solid black;
+	width: 4em;
+	height: 1.45em;
+}

@@ -1,0 +1,134 @@
+body{
+	background-color: black;
+	color: #FEE0FE;
+	font-family: 'LearningPro', Comic Sans MS, Arial, sans-serif;
+	font-size: 1.3em;
+}
+
+h1{
+	border:#FEE0FE solid;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+.footer{
+	text-align: center;
+}
+
+.singes{
+	height: 150px;
+	width : 150px;
+
+}
+.puzzle{
+	display       : flex;
+	flex-direction: column;
+	
+}
+
+.puzzle1{
+	display:flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img{
+	width: 5px;
+    height: 5px;
+}
+.dropper {
+    /*margin: 50px 10px 10px 50px;*/
+    width: 120px;
+    height: 120px;
+    background-color: #555;
+    border: 1px solid #111;
+    
+    border-radius: 10px;
+    transition: all 200ms linear;
+}
+
+/*.piece .dropper:empty {
+	display:none;
+}*/
+
+.drop_hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8) inset;
+}
+
+.draggable {
+    display: inline-block;
+   /* margin: 20px 10px 10px 20px;*/
+    width: 120px;
+    height: 120px;
+    color: #3D110F;
+   
+   /* border: 4px solid #3D110F;*/
+    text-align: center;
+    font-size: 2em;
+    cursor: move;
+
+    transition: all 200ms linear;
+    user-select: none;
+}
+.ligne{
+	display: flex;
+	width: 1098px;
+    height: 120px;
+    background-color: #AFAEAE;
+    border-radius: 10px;
+    margin-right: auto;
+	margin-left: 25px;
+
+}
+.buttonValider{
+	background   : transparent;
+	color        : #FEE0FE;
+	border       : 1px solid;
+	border-radius: 0.3em;
+	padding      :0.3em 0.5em;
+	font-size    : 1.2em;
+
+}
+.buttonReset{
+	background   : transparent;
+	color        : #FEE0FE;
+	border       : 1px solid;
+	border-radius: 0.3em;
+	padding      :0.3em 0.5em;
+	font-size    : 1.2em;
+	text-decoration: none;
+}
+.reset{
+	text-decoration: none;
+	color: #FEE0FE;
+
+}
+.button:hover{
+	color: lightblue;
+}
+
+/*.case1,.case2,.case3,.case4{
+	border    : solid; 
+	height    : 150px;
+	width     : 150px;
+	text-align: center;
+
+}
+
+
+.piece1,.piece2,.piece3,.piece4{
+	 
+	height: 100px;
+	width : 100px;
+}
+.puzzle1,.puzzle2,.piece{
+	display: flex;
+}
+
+*/

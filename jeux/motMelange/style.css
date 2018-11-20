@@ -1,0 +1,24 @@
+.testShuffle{
+/*	border: 2px solid black;
+	border-collapse: collapse;
+*/}
+table{
+	border: solid black 2px;
+	margin: 10px;
+}
+td {
+	/*border: 2px solid black;*/
+	height: 4em;
+	width: 4em;
+	text-align: center;
+	background-color: transparent;
+
+}
+
+.dropper {
+	/*padding: 10px;*/
+}
+
+.cacher{
+	display: none;
+}
