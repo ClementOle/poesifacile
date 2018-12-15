@@ -1,0 +1,147 @@
+* { /* appliquer à tout le contenu*/
+    margin: 0; /* pas de marge*/
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: Strange Magic;
+    src: url(media/Strange_Magic.ttf);
+
+}
+
+header {
+    font-family: 'Strange Magic', 'Cosmic Sans MS', sans-serif;
+}
+
+body {
+    background-image: url(media/flowers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.regle {
+    border-radius: 1em;
+    background-color: #FFF1FB;
+    text-align: center;
+    margin-right: 20em;
+    margin-left: 20em;
+    padding: 0.5em;
+}
+
+#jeuphoto {
+    background-image: linear-gradient(60deg, #FC2AAF, #FCE5F6);
+    border-radius: 0.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-bottom: 13%;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    text-align: center;
+}
+
+.texte {
+    font-size: 1.5em;
+}
+
+.bouton {
+    display: flex;
+    justify-content: center;
+}
+
+
+.photo {
+    width: 30em;
+    height: 20em;
+    border-radius: 2em;
+}
+
+.footer {
+    text-align: center;
+    color: black;
+    font-size: .8em;
+
+
+}
+
+.bout {
+    background: transparent;
+    color: #CF0686;
+    border: 1px solid;
+    border-radius: 0.3em;
+    padding: 0.3em 0.5em;
+    font-size: 1.2em;
+}
+
+.bout:hover {
+    color: lightblue;
+}
+
+.versEval {
+    font-size: 2em;
+}
+
+a {
+    position: absolute;
+    top: 280%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 50px;
+    background: pink;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    color: #071EA7;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: verdana;
+    letter-spacing: 4px;
+}
+
+a:before,
+a:after,
+span:before,
+span:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #071EA7;
+    transition: 1s;
+    mix-blend-mode: hue;
+}
+
+a:before {
+    top: -2px;
+    left: -2px;
+}
+
+a:after {
+    top: -2px;
+    right: -2px;
+}
+
+span:before {
+    bottom: -2px;
+    left: -2px;
+}
+
+span:after {
+    bottom: -2px;
+    right: -2px;
+}
+
+a:hover:before,
+a:hover:after,
+a:hover span:before,
+a:hover span:after {
+    width: calc(180px / 2);
+    height: calc(50px / 2);
+}

@@ -1,0 +1,110 @@
+
+body {
+
+    font-family: 'plume', 'Cosmic Sans MS', sans-serif;
+    margin-top: 5em;
+    font-weight: bold;
+
+
+}
+
+.main {
+
+    background-image: url(media/feuille.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    margin-top: -2.5em;
+    padding-top: 5em;
+    padding-left: 7em;
+
+
+}
+
+@font-face {
+    font-family: plume;
+    src: url(media/PlumBAE.ttf);
+}
+
+h1 {
+    text-align: center;
+
+}
+
+/*.Q3,.Q4{
+	font-size: 25px;
+	margin-top: 0em;
+}*/
+.Q2, .Q1, .Q3, .Q4 {
+    font-family: arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.bouton {
+    background: transparent;
+    color: #484747;
+    border: 2px solid;
+    border-radius: 0.3em;
+    padding: 0.3em 0.5em;
+    font-size: 1.2em;
+    font-family: 'Cosmic Sans MS', sans-serif;
+
+
+}
+
+.boutonT, .boutonSuite {
+    text-align: center;
+}
+
+.bouton { /* effet du bouton*/
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 9px #424040; /* barre sous le bouton taille et couleur*/
+    outline: none;
+
+}
+
+.bouton:hover {
+    box-shadow: 0 6px #424040; /* barre sous le bouton taille et couleur avec la souris dessus*/
+    transform: translateY(7px); /* le hauteur de descente du bouton*/
+}
+
+
+.code {
+    border: 2px black solid;
+    background: white;
+    margin-right: 28em;
+    margin-left: 8em;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+
+
+}
+
+.bonneR {
+    color: green;
+}
+
+.badR {
+    color: red;
+}
+
+.solutionQ1, .solutionQ2, .solutionQ3, .solutionQ4 {
+    font-family: arsenale, sans-serif;
+}
+
+@font-face {
+    font-family: arsenale;
+    src: url(media/Arsenale.ttf);
+}
+
+.cacher {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+}

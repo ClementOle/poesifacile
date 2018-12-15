@@ -1,0 +1,64 @@
+body {
+
+}
+
+.total {
+    background-image: url("image/parchemin.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+@keyframes bounce {
+    from {
+        top: 106px;
+    }
+    50% {
+        top: 46px;
+    }
+    to {
+        top: 106px;
+    }
+}
+
+@keyframes bounce1 {
+    from {
+        top: 16px;
+    }
+    50% {
+        top: 6px;
+    }
+    to {
+        top: 16px;
+    }
+}
+
+
+.corps {
+    animation: bounce 0.8s ease infinite;
+
+    height: auto;
+    display: flex;
+    left: 30%;
+    top: 40%;
+    position: absolute;
+    background-position: bottom;
+    border: solid darkblue 1em;
+    border-radius: 2em;
+}
+
+.titre {
+    animation: bounce1 0.3s ease infinite;
+
+    height: 3em;
+    z-index: 1;
+    position: absolute;
+    margin-left: .3em;
+    color: turquoise;
+
+
+    background-position: top;
+    font-family: "URW Gothic L", "lucida calligraphy", "Cantarell Light", lucida, cursive, sans-serif;
+
+}
+

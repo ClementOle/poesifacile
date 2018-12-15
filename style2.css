@@ -1,0 +1,141 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-image: url(media/parchemin.jpeg);
+    font-family: perpetua, lucida Calligraphy, arial, verdana, sans-serif;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation {
+    position: fixed; /* La barre de navigation est fixée en haut de l'écran*/
+    height: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.titre {
+
+    text-align: center;
+    margin-top: 20px;
+    text-decoration-line: none;
+    animation: fadein 2s;
+
+}
+
+.carre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.sliding-background {
+    background: url("media/bayeux.png") repeat-x; /*répetition de l'animation uniquement sur l'axe horizontal*/
+    height: 260px;
+    width: 3921px;
+    animation: slide 60s linear infinite; /*animation de glissement de la bannière pendant 60 secondes, se répétant à l'infini et de manière constante*/
+    top: 0;
+    position: fixed;
+    z-index: -1; /*mise en arrière plan de la bannière*/
+}
+
+@keyframes slide { /*définition de points de repère temporels dans l'évolution de l'animation*/
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-1692px, 0, 0); /*la valeur en abcisse définit le sens de rotation de la bannière, ici vers la gauche */
+    }
+}
+
+.menu {
+
+    display: flex;
+    height: 10px;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    text-decoration: none;
+
+}
+
+.menulink {
+    text-decoration: none;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menulink:hover {
+    color: black;
+}
+
+.ligne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+input[type=submit] {
+    margin: 10px;
+}
+
+.TexteConnexion {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.menuJeu {
+    font-size: 1.5em;
+}
+
+h2.IntroJeu {
+    font-size: 1.5em;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+}
+
+figcaption {
+    font-family: lucida Calligraphy, sans-serif;
+    font-size: 0.75em;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    vertical-align: top;
+}
+
+.score {
+    width: 5em;
+    height: 5em;
+}

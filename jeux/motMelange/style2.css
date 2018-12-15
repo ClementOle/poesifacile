@@ -1,0 +1,210 @@
+table {
+    /*border: solid black 2px;*/
+    /*	width: 23em;*/
+    margin: 10px;
+    border-radius: 10px;
+    border-collapse: separate;
+    border: groove;
+    border-radius: 1px;
+    box-shadow: 6px 6px 6px #5e9bff;
+    /*width: 33em;*/
+    border-radius: 10px;
+    background: radial-gradient(closest-corner ellipse at center, white 30%, #b2b4b7);
+    /*box-shadow: 10px 5px 5px green;*/
+}
+
+.tableau {
+    display: flex;
+    /*flex-direction: column;*/
+    position: absolute;
+    width: 76em;
+    top: 40%;
+    left: 2%;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    top: 95%;
+    left: 40%;
+}
+
+td {
+    height: 4em;
+    width: 4em;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.dropper {
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+.dropper .draggable {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border: none;
+}
+
+.cacher {
+    display: none;
+}
+
+
+h1 {
+    margin-left: 60%;
+}
+
+.texte {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    width: 14vw;
+    height: 30vh;
+    border: groove;
+    border-radius: 1px;
+    box-shadow: 6px 6px 6px black;
+    /*border: 2px black groove;*/
+    border-radius: 10px;
+    background: radial-gradient(closest-corner ellipse at center, white 30%, #5e9bff);
+    padding: 0.3em;
+    justify-content: center;
+    text-align: center;
+}
+
+/*                                             PARTIE CSS AVEC RELIEF                             */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e3e9f2;
+}
+
+.center {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.center2 {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.text2 {
+    position: relative;
+    display: block;
+    font-size: 3em;
+    text-transform: uppercase;
+    line-height: .84;
+    /*color: #fff;*/
+    color: #2c2f33;
+    text-shadow: 0 15px 5px rgba(0, 0, 0, .2);
+    letter-spacing: -10px;
+    transform: skewY(-5deg);
+    box-shadow: 0 4px 0 rgba(0, 0, 0.5), 0 -4px 0 rgba(0, 0, 0.5);
+}
+
+.text {
+    position: relative;
+    display: block;
+    font-size: 5em;
+    text-transform: uppercase;
+    line-height: .84;
+    /*color: #fff;*/
+    color: #2c2f33;
+    text-shadow: 0 15px 5px rgba(0, 0, 0, .2);
+    letter-spacing: -10px;
+    transform: skewY(-5deg);
+    box-shadow: 0 4px 0 rgba(0, 0, 0.5), 0 -4px 0 rgba(0, 0, 0.5);
+}
+
+.textblock1 {
+    z-index: 3;
+    background: #ff5c72;
+}
+
+.textblock2 {
+    z-index: 2;
+    background: #5e9bff;
+}
+
+.textblock3 {
+    z-index: 1;
+    background: #e471ff;
+}
+
+/*                                              BOUTON VALIDER - ABANDONNER - SUITE                                    */
+
+button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #404244;
+    background: linear-gradient(45deg, #fff 50%, #5e9bff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+
+    color: #fff; /*for IE*/
+}
+
+button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(45deg, #5e9bff 50%, transparent 50%);
+    z-index: -1;
+}
+
+button, button:after {
+    background-size: 300%;
+    background-position: 100%;
+    transition: 1s, font-size .2s;
+}
+
+button:hover, button:hover:after {
+    background-position: 0;
+    font-size: 1.1em;
+
+    color: #5e9bff; /*for IE*/
+}
+
+.boutonV {
+    position: absolute;
+    top: 68%;
+    left: 36%;
+    width: 6em;
+    text-align: center;
+    justify-content: center;
+}
+
+.boutonSuite {
+    position: absolute;
+    top: 68%;
+    left: 42%;
+    width: 6em;
+    text-align: center;
+    justify-content: center;
+}
+
+.boutonAbandon {
+    display: flex;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    width: 6em;
+    text-align: center;
+    justify-content: center;
+}
